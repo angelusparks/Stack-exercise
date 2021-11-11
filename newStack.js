@@ -1,3 +1,6 @@
+const maxSize = 4;
+
+
 class Stack {
   constructor() {
     this.Array = [];
@@ -20,7 +23,7 @@ class Stack {
   }
 
   isFull(){
-    return this.Array.length === 4; 
+    return this.Array.length === maxSize; 
   }
 
   size() {

@@ -1,3 +1,5 @@
+const maxSize = 4;
+
 function Queue(){
   this.elements = []
 }
@@ -16,7 +18,7 @@ Queue.prototype.isEmpty = function() {
 }
 
 Queue.prototype.isFull = function() {
-  return this.elements.length == 4;
+  return this.elements.length == maxSize;
 }
 
 Queue.prototype.peek = function() {

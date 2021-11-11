@@ -23,7 +23,7 @@ Queue.prototype.peek = function() {
   return this.elements[0];
 }
 
-let q = new Queue();
+const q = new Queue();
 console.log("Array is empty? " + q.isEmpty());
 q.enqueue("Ricardo");
 q.enqueue("Ana");
